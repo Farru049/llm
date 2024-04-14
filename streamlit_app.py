@@ -10,7 +10,7 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"]=ls__65f4189361d0454b9c205d23dd72d4cf
 
 ## Prompt Template
 
